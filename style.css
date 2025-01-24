@@ -1,0 +1,567 @@
+*{
+    margin: 0px;
+     
+}
+.main{
+    display: flex;
+    width: 100%;
+}
+.nav1{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: darkgrey;
+    
+}
+.flag{
+    padding: 0px 0px 0px 5px;
+}
+.contact1{
+    padding: 0px 15px 0px 20px;
+}
+.contact2{
+    padding: 0px 15px 0px 0px;
+}
+.contact3{
+    padding: 0px 15px 0px 0px;
+}
+.contact4{
+    padding: 0px 15px 0px 0px;
+}
+.eng{
+    height: 20px;
+    width: 0px;
+    padding: 0px 0px 0px 350px;
+    
+}
+
+
+
+.nav2{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-color: white;
+    position:fixed;
+    top:0%;
+    }
+
+.logo{
+    margin: 0px 0px 0px 50px;
+}
+
+.option{
+    display: flex;
+    align-items: center;
+}   
+.button1{
+    display: flex;
+    width: 130px;
+    height: 40px;
+    background-color: #0d6db7;
+    margin: 0px 0px 0px 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 50px;
+    border-radius: 5px;
+    border-style: none;
+}   
+.button2{
+    display: flex;
+    width: 130px;
+    height: 40px;
+    background-color: #8dc63f;
+    margin: 0px 0px 0px 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 10px;
+    border-radius: 5px;
+    border-style: none;
+}
+.intro{
+    width: 100%;
+    
+    display: flex;
+    justify-items: center; 
+    background-image: url(assest/background/carousal_background.d77d94e41c5a71ae581f.png);
+    margin: 70px 0px 0px 0px;
+    
+}
+
+intro, .intro1{
+    width: 40%;
+    height: 750px;
+    padding:70px 0px 0px 50px ;
+}
+
+intro, .intro2{
+    width: 60%;
+    height: 750px;
+    
+}
+.search-box button{
+    
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 1rem; 
+    color: black;
+    cursor: pointer;
+    border: 0.5px solid rgb(22, 21, 21);
+    width: 200px;
+}
+.donate{
+    display: flex;
+    width: 100%;
+}
+.donate1{
+    width: 90%;
+    height: 120px;
+    background-color: #e1fabd;
+    margin: 0px 50px 20px 70px;
+    border-radius: 20px;display: flex;
+}
+.gen{
+    height: 50px;
+    margin: 40px 0px 20px 40px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+    align-content: center;
+    padding: 0px 5px 0px 5px;
+    
+}
+.inp{
+    height: 44px;
+}
+
+.bloodbank{
+    height: 50px;
+    margin: 40px 0px 20px 40px;
+    background-color: white;
+    color: rgb(8, 8, 8);
+    border-radius: 5px;
+    align-content: center;
+    padding: 0px 15px 0px 15px;
+}
+.Kifalat{
+    height: 50px;
+    margin: 40px 0px 20px 40px;
+    background-color: white;
+    color: rgb(8, 8, 8);
+    border-radius: 5px;
+    align-content: center;
+    padding: 0px 15px 0px 15px;
+}
+.Medical{
+    height: 50px;
+    margin: 40px 0px 20px 40px;
+    background-color: white;
+    color: rgb(8, 8, 8);
+    border-radius: 5px;
+    align-content: center;
+    padding: 0px 15px 0px 15px;
+}
+.Food{
+    height: 50px;
+    margin: 40px 0px 20px 40px;
+    background-color: white;
+    color: rgb(8, 8, 8);
+    border-radius: 5px;
+    align-content: center;
+    padding: 0px 15px 0px 15px;
+}
+
+.Quick-Donate{
+    height: 50px;
+    margin: 40px 0px 20px 40px;
+    background-color: #8dc63f;
+    color: rgb(8, 8, 8);
+    border-radius: 5px;
+    align-content: center;
+    padding: 0px 25px 0px 25px;
+}
+.ban{
+    margin: 0px 50px 30px 70px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-image: url(assest/pic/educat.jpg);
+    width: 1200px;
+    height: 750px;
+}
+.text{
+    font-size: 50px;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+.cards{
+    display: flex;
+    margin: 20px 50px 20px 70px;
+    justify-content: center;
+    align-items: center;
+}
+.card1,.card2,.card3,.card4,.card5,.card6{
+    font-size: 20px;
+    line-height: 21px;
+    background-color: #e0f7b7;
+    width: 150px;
+    height: 150px;
+    justify-items: center;
+    align-content: center;
+    margin: 0px auto;
+}
+.dc{
+    display: flex;
+    margin: 20px 50px 30px 70px;
+}
+.dc1{
+    width: 400px;
+    height: 300px;
+    margin: 0px auto;
+    background-image: url(assest/donate\ cards/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    border-radius: 15px;
+    justify-items: center;
+    align-content: end;
+    
+}
+
+.dc2{
+    width: 400px;
+    height: 300px;
+    margin: 0px auto;
+    background-image: url(assest/donate\ cards/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    border-radius: 15px;
+    justify-items: center;
+    align-content: end;
+    
+}
+
+.dc3{
+    width: 400px;
+    height: 300px;
+    margin: 0px auto;
+    background-image: url(assest/donate\ cards/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    border-radius: 15px;
+    justify-items: center;
+    align-content: end;
+    
+}
+
+
+.p1,.p2,.p3{
+    text-align: center;
+    font-size: 25px;
+    margin: 0px 0px 90px 0px;
+}
+.b1,.b2,.b3{
+    width: 350px;
+    height: 50px;
+    border-color: #8dc63f;
+    background-color: #8dc63f;
+    border-radius: 5px;
+    color: white;
+    margin: 40px 0px 40px 0px;
+}
+.project{
+    
+    display: flex;
+    margin: 20px 50px 30px 70px;
+}
+.pro1{
+    width: 604px;
+    height: 604px;
+    background-image: url(assest/pic/2178912-image-1584559620.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-top-left-radius: 80px;
+}
+.divp1{
+    background-color: #8dc63f;
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+    border-top-left-radius: 80px;
+   
+    align-content: center;
+}
+.divp2{
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+}
+.divp3{
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+}
+.divp4{
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+}
+.tex{
+    width: 160px;
+    color: white;
+    font-size: 20px;
+    margin: 0px auto;
+}
+.pro2{
+    width: 604px;
+    height: 604px;
+    display: ;
+    
+}
+.heading{
+    font-size: 25px;
+    margin: 10px 0px 30px 30px;
+}
+.one1{
+    width: 90px;
+    height: 90px;
+    background-color: rgb(235, 232, 232);
+    border-radius: 8px;
+    margin: 20px 0px 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one2{
+    width: 420px;
+    height: 50px;
+    line-height: 21px;
+    margin: 20px 0px 20px 20px;
+}
+.hep{
+    display: flex;
+}
+.blue{
+    display: flex;  
+    height: 400px;
+    display: flex;
+    margin: 20px 50px 30px 70px;
+    background-image: url(assest/background/gradient-wave-colorful-design-minimalist-style_483537-3747.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    }
+    
+.part1{
+    width: 120px;
+    height: 120px;
+    border:2px solid white;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 130px 0px;
+   
+}    
+.our{
+    font-size: 25px;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+.our1{
+    color: #8dc63f;
+}
+.ban2{ 
+    height: 420px;
+    background-color: rgb(207, 202, 202);
+    margin: 20px 50px 30px 70px;
+    text-align: center;
+    padding: 0px 40px 0px 40px;
+}
+.pic1{
+    width: 150px;
+    height: 150px;
+    border:2px solid white;
+    border-radius: 50%;
+    margin: 40px 0px 20px 0px;
+}
+.butg{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 20px 5px 0px 5px;
+}
+           /* cart */
+.cart-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.cart{
+    width: 260px;
+    height: 350px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    margin: 20px;
+}
+.cart iframe{
+    width: 95%;
+    height: auto;
+    margin: 5px 0px 0px 8px;
+}
+.cart p{
+    margin: 100px 10px 10px 20px;
+}
+
+                        /* newacart */
+
+.newscart-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.newscart{
+    width: 260px;
+    
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    margin: 20px;
+}
+.newscart img{
+    width: 100%;
+    height: auto;
+    
+}
+.newscart-content{
+    padding: 16px;
+}  
+.newscart-content h6{
+    font-size: 15px;
+    margin: 10px 0px 10px 0px;
+}    
+  
+.newscart-content .bot2{
+      display: inline-block;
+      padding: 8px 16px;
+      background-color: #8dc63f;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      margin: 10px 0px 5px 0px;
+}
+.newscart-content .bot{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 0px;
+    font-size: 20px;
+}    
+.guid{
+    
+    margin: 20px 50px 30px 70px;
+    background-color: #0d6db7;
+    
+}  
+.guid1{
+    width: 100%;
+    height: 300px;  
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;   
+}
+.say{
+    font-size: 50px;
+    line-height: 40px;
+    color: white;
+    margin: 60px 0px 30px 0px;
+}
+.int{
+    height: 50px;
+    width: 800px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 0px 0px 10px 0px;
+}
+.sub{
+    height: 55px;
+    width: 810px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+                      
+
+.footer1{
+    display: flex;
+    background-image: url(assest/background/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 480px;
+}              
+.foot1{
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    flex-direction: column;
+}        
+.lil1{
+    display: flex;
+    align-items: center;
+    list-style: none;
+   gap: 10px;
+   margin: 0px 0px 0px 50px;
+   
+}
+.socail1{
+    margin: 50px 0px 0px 80px;
+}
+
+                         
+
+   
+.foot2{
+    display: flex;
+    justify-items: center;
+    align-content: center;  
+    margin: 0px 0px 0px 60px;
+}     
+.lil2{
+    display: flex;
+    
+    list-style: none;
+   gap: 20px;
+   flex-direction: column;
+   
+   margin: 50px 0px 0px 40px;
+   
+}
+a{
+    color: white;
+    text-decoration: none;
+}          
+.last{
+    align-content: end;
+    position: relative;
+    right: 550px;
+    top: 0px;
+    
+}  
